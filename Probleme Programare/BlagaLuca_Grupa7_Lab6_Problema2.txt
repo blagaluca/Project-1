@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int a, rp;
+	printf("\n Numarule este:");
+	scanf("%d", &a);
+	rp = sqrt (a);
+	printf("Radacina patrata este: %d", rp);
+
+
+	if (rp * rp == a)
+	{
+		printf("\n Numaraul este patrat perfect %d", a);
+	}
+	else
+	{
+		printf("\n Numarul nu este patrat perfect %d", a);
+	}
+	return 0;
+}

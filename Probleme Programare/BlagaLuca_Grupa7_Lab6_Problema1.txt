@@ -1,0 +1,28 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<math.h>
+int main() {
+	int a, b, c, aria;
+	float diag;
+	printf("\n Introduceti valoarea lui a:");
+	scanf("%d", &a);
+	printf("\n Introduceti valoarea lui b:");
+	scanf("%d", &b);
+	printf("\n Introduceti valoarea lui c:");
+	scanf("%d", &c);
+
+	aria = a * b;
+	printf("\n Aria dreptunghiului este:%d", aria);
+	diag = sqrt((a * a) + (b * b));
+	
+
+	if (diag == c)
+	{
+		printf("\n Diagonala este: %d", c);
+	}
+	else
+	{
+		printf("\n Diagonala nu este:%d", c);
+	}
+	return 0;
+}

@@ -1,0 +1,23 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a, b, c;
+    float aria, sp;
+
+    scanf("Latura a %d:", &a);
+    printf("Latura a este:");
+
+    scanf("Latura b %d:", &b);
+    printf("Latura b este:");
+
+    scanf("Latura c %d:", &c);
+    printf("Latura c este:");
+
+    sp = (a + b + c) / 2;
+    aria = sqrt(sp * (sp - a) * (sp - b) * (sp - c));
+
+    printf("Aria triunghiului este:%f");
+
+}

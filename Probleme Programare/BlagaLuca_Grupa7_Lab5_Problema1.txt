@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+
+{
+	int a, b, c, d, x, p;
+	printf("Introduceti valoarea pentru polinomul de gradul 3:");
+	scanf("%d", &x);
+	printf("Introduceti coeficientii polinomului de gradul 3:");
+	scanf("%d", &a);
+	scanf("%d", &b);
+	scanf("%d", &c);
+	scanf("%d", &d);
+	p = a * (x * x * x) + b * (x * x) + c * x + d;
+
+	printf("Afiseaza valoarea polinomului de gradul 3:%d", p);
+
+	return 0;
+}
